@@ -1,5 +1,6 @@
 
 import { Comment } from './comment';
+import {DISHES} from "./dishes";
 export class Dish {
   id: string;
   name: string ;
@@ -10,4 +11,7 @@ export class Dish {
   price: string;
   description: string  ;
   comments: Comment[] ;
+
+
+
 }
